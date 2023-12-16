@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+     
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th.linha1 {
+            background-color: darkgrey;
+        }
+        tfoot {
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Lista de municípios da Bahia por população</caption>
+      <thead>
+        <tr>
+            <th class="linha1">Posição</th>
+            <th class="linha1">Municipio</th>
+            <th class="linha1">População</th>
+            <th class="linha1">% em relação á porcentagem do estado</th>
+            <th class="linha1">Variação bruta</th>
+            <th class="linha1">Variação percentual</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>1</td>
+            <td>Salvador</td>
+            <td class="num"2class> 900 319</td>
+            <td>17,10% </td>
+            <td>64 002</td>
+            <td>&#9660-9,63% </td>      
+
+        </tr>
+        <tr>
+             <td>2</td>
+             <td>Feira de Santana</td>
+             <td class="num">624 107</td>
+             <td>4,36%</td>
+             <td>59 637</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Vitória da Conquista</td>
+            <td class="num">370 868</td>
+            <td>2,62%</td>
+            <td>64 002</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Camaçari</td>
+            <td class="num">299 579</td>
+            <td>2,12%</td>
+            <td>56 609</td>
+
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Juazeiro</td>
+            <td class="num">235 816</td>
+            <td>1,67%</td>
+            <td>37 851</td>
+
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Lauro de Freitas</td>
+            <td class="num">203 334</td>
+            <td>1,44%</td>
+            <td>39 885</td>
+
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Itabuna</td>
+            <td class="num">186 708</td>
+            <td>1,32%</td>
+            <td>−17 959</td>
+
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Ilhéus</td>
+            <td class="num">178 703</td>
+            <td>1,26%</td>
+            <td>−5 533</td>
+
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Porto Seguro</td>
+            <td class="num">167 955</td>
+            <td>1,19%</td>
+            <td>41 026</td>
+
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Barreiras</td>
+            <td class="num">159 743</td>
+            <td>1,13%</td>
+            <td>22 316</td>
+
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Jequié</td>
+            <td class="num">158 812</td>
+            <td>1,12%</td>
+            <td>6 917</td>
+
+        </tr>
+        <tr>
+            <th>12</th>
+            <th>Alagoinhas</th>
+            <th class="num">151 065</th>
+            <th>1,07%</th>
+            <th>9 116</th>
+
+        </tr>
+        <tr>
+            <th>13</th>
+            <th>Teixeira de Freitas</th>
+            <th class="num">145 223</th>
+            <th>1,03%</th>
+            <th>6 882</th>
+
+        </tr>
+        <tr>
+            <th>14</th>
+            <th>Simões Filho</th>
+            <th class="num">114 441</th>
+            <th>0,81%</th>
+            <th>−3 606</th>
+
+        </tr>
+    
+        <tr>
+            <th>15</th>
+            <th>Eunápolis</th>
+            <th class="num">113 709</th>
+            <th>0,80%</th>
+            <th>4 474</th>
+      </tr>
+      </tbody>
+      <tfoot>
+        <th>Total de habitantes</th>
+        <td><strong>00000000</strong></td>
+      </tfoot>
+    </table>
+    
+</body>
+</html>
